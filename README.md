@@ -10,4 +10,6 @@
 ##### drawAvgLoss.py文件用于绘制每次epoch的平均loss,修改文件路径和标题后也可绘制训练过程的loss和acc  
 ##### Data/trainData中存放了不同batch size以及不同epoch下的训练数据(包括训练过程的loss和acc变化以及每次epoch的平均loss变化)  
 ##### data/accData中存放了不同batch size、learn rate以及epoch下的测试集acc变化  
-##### image中存放了从官方下载的cifar-10数据集
+##### image中存放了从官方下载的cifar-10数据集  
+##### gradioView/predicted中存放了预测的分类与真实分类及其图片的numpy表示
+##### gradioView/train_acc_loss存放了训练过程的loss和acc图像
